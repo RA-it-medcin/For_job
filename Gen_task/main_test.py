@@ -20,7 +20,7 @@ class Work_text(object):
 	def __init__(self, *args):
 		super(Work_text, self).__init__()
 
-		self.OPEN_FILE = io.open("C:/Users/Tama/Desktop/Генерация задач 3.0/Формы исходных/задачи.txt",encoding = 'utf-8').readlines()
+		self.OPEN_FILE = io.open("C:/Users/****/Desktop/Генерация задач 3.0/Формы исходных/задачи.txt",encoding = 'utf-8').readlines()
 
 	def number_task(self,OPEN_FILE):
 		self.number_zadaci = []
@@ -273,7 +273,7 @@ class Work_answer(object):
 	def __init__(self, *args):
 		super(Work_answer, self).__init__()
 
-		self.OPEN_FILE_A = io.open("C:/Users/Tama/Desktop/Генерация задач 3.0/Формы исходных/ответы.txt",encoding = 'utf-8').readlines()
+		self.OPEN_FILE_A = io.open("C:/Users/****/Desktop/Генерация задач 3.0/Формы исходных/ответы.txt",encoding = 'utf-8').readlines()
 
 	def number_task_answer(self,OPEN_FILE_A):
 		self.number_zadaci = []
