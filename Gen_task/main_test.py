@@ -396,8 +396,8 @@ class Work_index_answer_task(object):
 	def __init__(self, *args):
 		super(Work_index_answer_task, self).__init__()
 		
-		self.OPEN_FILE__T = io.open("C:/Users/Tama/Desktop/Генерация задач 3.0/Формы исходных/задачи.txt",encoding = 'utf-8').readlines()
-		self.OPEN_FILE__A = io.open("C:/Users/Tama/Desktop/Генерация задач 3.0/Формы исходных/ответы.txt",encoding = 'utf-8').readlines()
+		self.OPEN_FILE__T = io.open("C:/Users/***/Desktop/Генерация задач 3.0/Формы исходных/задачи.txt",encoding = 'utf-8').readlines()
+		self.OPEN_FILE__A = io.open("C:/Users/***/Desktop/Генерация задач 3.0/Формы исходных/ответы.txt",encoding = 'utf-8').readlines()
 
 	def number_task_All(self,File,name):
 		self.number_zadaci = []
